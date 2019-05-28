@@ -331,7 +331,16 @@
         <number>1</number>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout">
-        <property name="margin">
+        <property name="leftMargin">
+         <number>1</number>
+        </property>
+        <property name="topMargin">
+         <number>1</number>
+        </property>
+        <property name="rightMargin">
+         <number>1</number>
+        </property>
+        <property name="bottomMargin">
          <number>1</number>
         </property>
         <item>
@@ -404,7 +413,7 @@
      <x>0</x>
      <y>0</y>
      <width>1328</width>
-     <height>25</height>
+     <height>22</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -3648,27 +3657,8 @@ QMenu::item:selected {
     <widget class="QLineEdit" name="txt_crossGauge">
      <property name="geometry">
       <rect>
-       <x>202</x>
-       <y>330</y>
-       <width>100</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="txt_rowBolts">
-     <property name="geometry">
-      <rect>
-       <x>202</x>
-       <y>240</y>
+       <x>200</x>
+       <y>300</y>
        <width>100</width>
        <height>25</height>
       </rect>
@@ -3686,8 +3676,8 @@ QMenu::item:selected {
     <widget class="QLabel" name="label_152">
      <property name="geometry">
       <rect>
-       <x>2</x>
-       <y>330</y>
+       <x>0</x>
+       <y>300</y>
        <width>211</width>
        <height>25</height>
       </rect>
@@ -3728,8 +3718,8 @@ QMenu::item:selected {
     <widget class="QLabel" name="label_154">
      <property name="geometry">
       <rect>
-       <x>2</x>
-       <y>270</y>
+       <x>0</x>
+       <y>240</y>
        <width>130</width>
        <height>25</height>
       </rect>
@@ -3748,8 +3738,8 @@ QMenu::item:selected {
     <widget class="QLineEdit" name="txt_endDist">
      <property name="geometry">
       <rect>
-       <x>202</x>
-       <y>360</y>
+       <x>200</x>
+       <y>330</y>
        <width>100</width>
        <height>25</height>
       </rect>
@@ -3764,31 +3754,11 @@ QMenu::item:selected {
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QLabel" name="lbl_row_7">
-     <property name="geometry">
-      <rect>
-       <x>2</x>
-       <y>240</y>
-       <width>130</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>11</pointsize>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>No. of rows</string>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_155">
      <property name="geometry">
       <rect>
-       <x>2</x>
-       <y>360</y>
+       <x>0</x>
+       <y>330</y>
        <width>201</width>
        <height>25</height>
       </rect>
@@ -3870,8 +3840,8 @@ QMenu::item:selected {
     <widget class="QLabel" name="label_161">
      <property name="geometry">
       <rect>
-       <x>-1</x>
-       <y>430</y>
+       <x>0</x>
+       <y>400</y>
        <width>130</width>
        <height>25</height>
       </rect>
@@ -3883,102 +3853,6 @@ QMenu::item:selected {
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;Plate&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="txt_criticalWeb">
-     <property name="geometry">
-      <rect>
-       <x>202</x>
-       <y>550</y>
-       <width>100</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_163">
-     <property name="geometry">
-      <rect>
-       <x>2</x>
-       <y>520</y>
-       <width>201</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>11</pointsize>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Critical stress (at flange)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_164">
-     <property name="geometry">
-      <rect>
-       <x>2</x>
-       <y>550</y>
-       <width>191</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>11</pointsize>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>Critical stress (web)</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="txt_criticalFlange">
-     <property name="geometry">
-      <rect>
-       <x>202</x>
-       <y>520</y>
-       <width>100</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_166">
-     <property name="geometry">
-      <rect>
-       <x>-1</x>
-       <y>490</y>
-       <width>130</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>11</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;Weld&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QPushButton" name="btn_SaveMessages">
@@ -4109,8 +3983,8 @@ QMenu::item:selected {
     <widget class="QLineEdit" name="txt_gauge">
      <property name="geometry">
       <rect>
-       <x>202</x>
-       <y>300</y>
+       <x>200</x>
+       <y>270</y>
        <width>100</width>
        <height>25</height>
       </rect>
@@ -4129,7 +4003,7 @@ QMenu::item:selected {
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>300</y>
+       <y>270</y>
        <width>131</width>
        <height>25</height>
       </rect>
@@ -4210,33 +4084,11 @@ QMenu::item:selected {
       <string>Bolt capacity</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="txt_boltcapacity">
-     <property name="geometry">
-      <rect>
-       <x>202</x>
-       <y>150</y>
-       <width>100</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
     <widget class="QPushButton" name="btn_plateDetail">
      <property name="geometry">
       <rect>
        <x>200</x>
-       <y>430</y>
+       <y>400</y>
        <width>101</width>
        <height>25</height>
       </rect>
@@ -4255,8 +4107,8 @@ QMenu::item:selected {
     <widget class="QLabel" name="label_162">
      <property name="geometry">
       <rect>
-       <x>-1</x>
-       <y>460</y>
+       <x>0</x>
+       <y>430</y>
        <width>130</width>
        <height>25</height>
       </rect>
@@ -4274,7 +4126,7 @@ QMenu::item:selected {
      <property name="geometry">
       <rect>
        <x>200</x>
-       <y>460</y>
+       <y>430</y>
        <width>101</width>
        <height>25</height>
       </rect>
@@ -4294,7 +4146,7 @@ QMenu::item:selected {
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>390</y>
+       <y>360</y>
        <width>201</width>
        <height>25</height>
       </rect>
@@ -4313,8 +4165,8 @@ QMenu::item:selected {
     <widget class="QLineEdit" name="txt_edgeDist">
      <property name="geometry">
       <rect>
-       <x>202</x>
-       <y>390</y>
+       <x>200</x>
+       <y>360</y>
        <width>100</width>
        <height>25</height>
       </rect>
@@ -4332,8 +4184,8 @@ QMenu::item:selected {
     <widget class="QLineEdit" name="txt_boltcapacity">
      <property name="geometry">
       <rect>
-       <x>202</x>
-       <y>140</y>
+       <x>200</x>
+       <y>150</y>
        <width>100</width>
        <height>25</height>
       </rect>
@@ -4355,7 +4207,7 @@ QMenu::item:selected {
      <property name="geometry">
       <rect>
        <x>200</x>
-       <y>270</y>
+       <y>240</y>
        <width>101</width>
        <height>25</height>
       </rect>
@@ -4371,27 +4223,19 @@ QMenu::item:selected {
       <string>Pitch details</string>
      </property>
     </widget>
-    <zorder>txt_boltcapacity</zorder>
     <zorder>txt_noBolts</zorder>
     <zorder>t_7</zorder>
     <zorder>txt_tensionCapacity</zorder>
     <zorder>txt_crossGauge</zorder>
-    <zorder>txt_rowBolts</zorder>
     <zorder>label_152</zorder>
     <zorder>txt_bearCapacity</zorder>
     <zorder>label_154</zorder>
     <zorder>txt_endDist</zorder>
-    <zorder>lbl_row_7</zorder>
     <zorder>label_155</zorder>
     <zorder>label_156</zorder>
     <zorder>label_157</zorder>
     <zorder>label_158</zorder>
     <zorder>label_161</zorder>
-    <zorder>txt_criticalWeb</zorder>
-    <zorder>label_163</zorder>
-    <zorder>label_164</zorder>
-    <zorder>txt_criticalFlange</zorder>
-    <zorder>label_166</zorder>
     <zorder>btn_SaveMessages</zorder>
     <zorder>btn_CreateDesign</zorder>
     <zorder>label_10</zorder>
@@ -4922,12 +4766,9 @@ QMenu::item:selected {
   <tabstop>txt_bearCapacity</tabstop>
   <tabstop>txt_boltgrpcapacity</tabstop>
   <tabstop>txt_noBolts</tabstop>
-  <tabstop>txt_rowBolts</tabstop>
   <tabstop>txt_gauge</tabstop>
   <tabstop>txt_crossGauge</tabstop>
   <tabstop>txt_endDist</tabstop>
-  <tabstop>txt_criticalFlange</tabstop>
-  <tabstop>txt_criticalWeb</tabstop>
   <tabstop>btn_SaveMessages</tabstop>
   <tabstop>btn_CreateDesign</tabstop>
   <tabstop>btnReset_3</tabstop>

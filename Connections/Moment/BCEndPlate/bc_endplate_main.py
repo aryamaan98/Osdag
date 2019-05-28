@@ -1183,7 +1183,7 @@ class Maincontroller(QMainWindow):
 
 		# bolts_in_rows = resultObj["Bolt"]["NumberOfRows"]
 		bolts_in_rows = 1
-		self.ui.txt_rowBolts.setText(str(bolts_in_rows))
+		#self.ui.txt_rowBolts.setText(str(bolts_in_rows))
 
 		# pitch = resultObj["Bolt"]["Pitch"]
 		# self.ui.txt_pitch.setText(str(pitch))
@@ -1203,11 +1203,11 @@ class Maincontroller(QMainWindow):
 
 		# weld_stress_flange = resultObj["Weld"]["FlangeStress"]
 		weld_stress_flange = 0.0
-		self.ui.txt_criticalFlange.setText(str(weld_stress_flange))
+		#self.ui.txt_criticalFlange.setText(str(weld_stress_flange))
 
 		# weld_stress_web = resultObj["Weld"]["WebStress"]
 		weld_stress_web = 0.0
-		self.ui.txt_criticalWeb.setText(str(weld_stress_web))
+		#self.ui.txt_criticalWeb.setText(str(weld_stress_web))
 
 	def display_log_to_textedit(self):
 		file = QFile(os.path.join('Connections', 'Moment', 'BCEndPlate', 'extnd.log'))

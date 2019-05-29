@@ -264,7 +264,8 @@ class PlateDetails(QDialog):
 		uiObj = self.maincontroller.designParameters()
 		resultObj_plate = bc_endplate_design(uiObj)
 		self.ui.txt_plateWidth.setText(str(resultObj_plate["Plate"]["Width"]))
-		self.ui.txt_plateHeight.setText(str(resultObj_plate["Plate"]["Height"]))
+		self.ui.txt_plateLength.setText(str(resultObj_plate["Plate"]["Height"]))
+		#self.ui.txt_plateHeight.setText(str(resultObj_plate["Plate"]["Height"]))
 		# self.ui.txt_plateDemand.setText(str(resultObj_plate["Plate"]["MomentDemand"]))
 		# self.ui.txt_plateCapacity.setText(str(resultObj_plate["Plate"]["MomentCapacity"]))
 
@@ -1190,7 +1191,7 @@ class Maincontroller(QMainWindow):
 
 		# gauge = resultObj["Bolt"]["Gauge"]
 		gauge = 0.0
-		self.ui.txt_gauge.setText(str(gauge))
+		#self.ui.txt_gauge.setText(str(gauge))
 
 		cross_centre_gauge = resultObj["Bolt"]["CrossCentreGauge"]
 		self.ui.txt_crossGauge.setText(str(cross_centre_gauge))

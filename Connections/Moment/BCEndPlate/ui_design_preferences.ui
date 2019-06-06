@@ -971,30 +971,10 @@
        <property name="geometry">
         <rect>
          <x>810</x>
-         <y>120</y>
+         <y>130</y>
          <width>111</width>
          <height>25</height>
         </rect>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_86">
-       <property name="geometry">
-        <rect>
-         <x>670</x>
-         <y>120</y>
-         <width>131</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>Thermal expansion coeff.
-
-(x10 / C)</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_13">
@@ -1008,6 +988,26 @@
        </property>
        <property name="text">
         <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_89">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>130</y>
+         <width>131</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Thermal expansion coeff.
+
+(x10 / C)</string>
        </property>
       </widget>
      </widget>
@@ -1864,7 +1864,7 @@
        <property name="geometry">
         <rect>
          <x>810</x>
-         <y>120</y>
+         <y>130</y>
          <width>111</width>
          <height>25</height>
         </rect>
@@ -1884,7 +1884,7 @@
        <property name="geometry">
         <rect>
          <x>670</x>
-         <y>120</y>
+         <y>130</y>
          <width>131</width>
          <height>51</height>
         </rect>
